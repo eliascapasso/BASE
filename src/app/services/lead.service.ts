@@ -40,6 +40,6 @@ export class LeadService {
     }
 
     private log(message: string) {
-        console.log("EmailService: " + message);
+        console.log("LeadService: " + message);
     }
 }

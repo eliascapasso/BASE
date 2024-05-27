@@ -11,14 +11,12 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { provideDatabase, getDatabase } from '@angular/fire/database';
 import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { BrowserModule } from '@angular/platform-browser';
-import { HomeModule } from './components/home/home.module';
 
 @NgModule({
     declarations: [
         AppComponent, NotfoundComponent
     ],
     imports: [
-        HomeModule,
         AppRoutingModule,
         CommonModule,
         FormsModule,

@@ -11,10 +11,11 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { provideDatabase, getDatabase } from '@angular/fire/database';
 import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { BrowserModule } from '@angular/platform-browser';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
     declarations: [
-        AppComponent, NotfoundComponent
+        AppComponent, NotfoundComponent, HomeComponent
     ],
     imports: [
         AppRoutingModule,

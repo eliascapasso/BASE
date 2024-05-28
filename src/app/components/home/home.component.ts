@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { LeadService } from 'src/app/services/lead.service';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +6,4 @@ import { LeadService } from 'src/app/services/lead.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  constructor(private leadService: LeadService) {
-  }
 }
